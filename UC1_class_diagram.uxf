@@ -1,5 +1,5 @@
 <diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>lt=-
-</help_text><element><id>UMLClass</id><coordinates><x>100</x><y>100</y><w>120</w><h>100</h></coordinates><panel_attributes>*User*
+</help_text><element><id>UMLClass</id><coordinates><x>70</x><y>100</y><w>120</w><h>100</h></coordinates><panel_attributes>*User*
 package::
 -
 
@@ -18,7 +18,7 @@ registerDay()
 registerTime()
 registerEvaluation()
 getTimestamp()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>100</y><w>130</w><h>100</h></coordinates><panel_attributes>*DatabaseManager*
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>100</y><w>130</w><h>100</h></coordinates><panel_attributes>*DatabaseManager*
 package::
 -
 
@@ -26,7 +26,7 @@ package::
 getConnection()
 saveRegistration()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>340</y><w>190</w><h>150</h></coordinates><panel_attributes>*UConManager*
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>430</y><w>190</w><h>150</h></coordinates><panel_attributes>*UConManager*
 package::
 -
 deviceID: String
@@ -36,4 +36,10 @@ UUID: String
 getBtConnection()
 findOnDemandStimulation()
 setTimestamp()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>110</y><w>120</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>280</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>110</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>110</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>280</y><w>50</w><h>170</h></coordinates><panel_attributes>lt=-&gt;
+m1=0..*
+m2=1</panel_attributes><additional_attributes>10;150;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>110</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+m1=1
+m2=1</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element></diagram>
