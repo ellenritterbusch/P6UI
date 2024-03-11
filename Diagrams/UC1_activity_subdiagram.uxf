@@ -1,0 +1,36 @@
+<diagram program="umletino" version="15.1"><zoom_level>7</zoom_level><element><id>UMLClass</id><coordinates><x>84</x><y>0</y><w>98</w><h>378</h></coordinates><panel_attributes>fontsize=16
+The user
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>126</x><y>21</y><w>14</w><h>14</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>126</x><y>28</y><w>21</w><h>42</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>91</x><y>56</y><w>84</w><h>49</h></coordinates><panel_attributes>Enter username, 
+password, sex, age, 
+device ID</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>182</x><y>0</y><w>210</w><h>378</h></coordinates><panel_attributes>fontsize=16
+The system
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>392</x><y>0</y><w>105</w><h>378</h></coordinates><panel_attributes>fontsize=16
+Database
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>252</x><y>63</y><w>56</w><h>28</h></coordinates><panel_attributes>fontsize=10
+
+Create query
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>245</x><y>112</y><w>84</w><h>35</h></coordinates><panel_attributes>fontsize=10
+
+Send query
+bg=yellow
+type=sender
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>273</x><y>84</y><w>21</w><h>42</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>406</x><y>112</y><w>70</w><h>35</h></coordinates><panel_attributes>fontsize=10
+
+Create user
+bg=yellow
+type=receiver
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>273</x><y>140</y><w>182</w><h>63</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;70;10;30;240;30;240;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>252</x><y>252</y><w>56</w><h>28</h></coordinates><panel_attributes>fontsize=10
+
+Access granted
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>245</x><y>301</y><w>70</w><h>28</h></coordinates><panel_attributes>fontsize=10
+
+Display homepage
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>273</x><y>273</y><w>21</w><h>42</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>252</x><y>189</y><w>56</w><h>28</h></coordinates><panel_attributes>fontsize=10
+
+Display
+"User created"
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>273</x><y>210</y><w>21</w><h>56</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>273</x><y>357</y><w>14</w><h>14</h></coordinates><panel_attributes>type=final</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>273</x><y>322</y><w>21</w><h>49</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>168</x><y>70</y><w>98</w><h>21</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>120;10;10;10</additional_attributes></element></diagram>
