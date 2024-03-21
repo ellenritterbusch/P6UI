@@ -1,5 +1,5 @@
-<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><help_text>lt=-
-</help_text><element><id>UMLClass</id><coordinates><x>516</x><y>456</y><w>204</w><h>228</h></coordinates><panel_attributes>*BladderDiary*
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><help_text>lt=-
+</help_text><element><id>UMLClass</id><coordinates><x>392</x><y>304</y><w>136</w><h>152</h></coordinates><panel_attributes>*BladderDiary*
 package::BladderDiary
 -
 accident: boolean
@@ -12,7 +12,7 @@ registerDay()
 registerTime()
 registerEvaluation()
 getTimestamp()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>876</x><y>504</y><w>156</w><h>120</h></coordinates><panel_attributes>*DatabaseManager*
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>632</x><y>336</y><w>104</w><h>80</h></coordinates><panel_attributes>*DatabaseManager*
 package::Database
 -
 
@@ -20,7 +20,7 @@ package::Database
 getConnection()
 saveRegistration()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>132</x><y>504</y><w>228</w><h>156</h></coordinates><panel_attributes>*UConManager*
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>136</x><y>336</y><w>152</w><h>104</h></coordinates><panel_attributes>*UConManager*
 package::UCon
 -
 deviceID: String
@@ -29,22 +29,22 @@ UUID: String
 getBtConnection()
 findOnDemandStimulation()
 setTimestamp()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>348</x><y>528</y><w>192</w><h>48</h></coordinates><panel_attributes>lt=-&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>352</y><w>128</w><h>32</h></coordinates><panel_attributes>lt=-&gt;
 m1=1
-m2=0..*</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>708</x><y>528</y><w>192</w><h>48</h></coordinates><panel_attributes>lt=-&gt;
+m2=0..*</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>352</y><w>128</w><h>32</h></coordinates><panel_attributes>lt=-&gt;
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>648</x><y>276</y><w>96</w><h>204</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>60;10;60;70;10;70;10;150</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>660</x><y>204</y><w>168</w><h>84</h></coordinates><panel_attributes>*View*
+m2=1</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>184</y><w>64</w><h>136</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>60;10;60;70;10;70;10;150</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>488</x><y>136</y><w>112</w><h>56</h></coordinates><panel_attributes>*View*
 --
 package:BladderDiary
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>792</x><y>96</y><w>204</w><h>72</h></coordinates><panel_attributes>BladderDiaryPage.dart
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>576</x><y>64</y><w>136</w><h>48</h></coordinates><panel_attributes>BladderDiaryPage.dart
 DailyEvaluationPage.dart
 CalenderPage.dart
 
 
-bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>408</x><y>204</y><w>168</w><h>84</h></coordinates><panel_attributes>*Controller*
+bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>320</x><y>136</y><w>112</w><h>56</h></coordinates><panel_attributes>*Controller*
 --
 package::BladderDiary
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>228</x><y>0</y><w>204</w><h>168</h></coordinates><panel_attributes>Accident_button.dart
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>200</x><y>0</y><w>136</w><h>112</h></coordinates><panel_attributes>Accident_button.dart
 Calender_bar.dart
 Save_button.dart
 Time_picker.dart
@@ -54,7 +54,7 @@ Evaluate_button.dart
 Track_button.dart
 Table_calender.dart
 
-bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>276</y><w>96</w><h>204</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;70;60;70;60;150</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>156</y><w>108</w><h>120</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;70;80</additional_attributes></element><element><id>Relation</id><coordinates><x>816</x><y>156</y><w>108</w><h>120</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>70;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1056</x><y>432</y><w>96</w><h>60</h></coordinates><panel_attributes>
+bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>384</x><y>184</y><w>64</w><h>136</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;70;60;70;60;150</additional_attributes></element><element><id>Relation</id><coordinates><x>264</x><y>104</y><w>72</w><h>80</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;70;80</additional_attributes></element><element><id>Relation</id><coordinates><x>592</x><y>104</y><w>72</w><h>80</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>70;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>752</x><y>288</y><w>64</w><h>40</h></coordinates><panel_attributes>
 
 Database
 customelement=
@@ -67,4 +67,4 @@ drawLine(31,9,31,24)fg=black //Parameters (x1, y1, x2, y2)
 drawArc(5,10,26,8,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
 drawArc(5,15,26,8,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
 drawArc(5,20,26,8,180,180,true)fg=black bg=#222222
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1020</x><y>456</y><w>60</w><h>96</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;60;30;10</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>728</x><y>304</y><w>40</w><h>64</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;60;30;10</additional_attributes></element></diagram>
