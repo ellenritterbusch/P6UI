@@ -1,0 +1,66 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>340</x><y>380</y><w>180</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
+*BladderDiary*
+package::BladderDiary
+-
+accident: boolean
+time: dateTime
+evaluationValue: int/String
+evaluationNote: String
+-
+registerAccident()
+registerTime()
+registerEvaluation()
+getTimestamp()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>380</y><w>130</w><h>90</h></coordinates><panel_attributes>*DatabaseManager*
+package::Database
+-
+-
+getConnection()
+saveRegistration()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>790</x><y>340</y><w>50</w><h>50</h></coordinates><panel_attributes>// Text Element
+// DB Symbol
+_umletcode=
+fg='black';
+bg='#222222';
+drawArc(0,0,width,height*2/5,0,180,true) //Parameters (x, y, width, height, start, extent, open)
+bg='bg';
+drawArc(0,0,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+fg='#929292';
+bg='#222222';
+drawRectangle(0,(height+0.5)/5,width,(height)*3/5-1)  //Parameters (x, y, width, height)
+fg='black'
+drawLine(0,height/5,0,height*4/5) //Parameters (x1, y1, x2, y2)
+drawLine(width,height/5,width,height*4/5) //Parameters (x1, y1, x2, y2)
+bg='bg';
+drawArc(0,height*1/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+drawArc(0,height*2/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+bg='#222222'
+drawArc(0,height*3/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>360</x><y>250</y><w>140</w><h>70</h></coordinates><panel_attributes>*View*
+--
+package::BladderDiary
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>410</x><y>150</y><w>160</w><h>60</h></coordinates><panel_attributes>BladderDiaryPage.dart
+DailyEvaluationPage.dart
+CalenderPage.dart
+bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>650</x><y>110</y><w>140</w><h>140</h></coordinates><panel_attributes>accident_button.dart
+calender_bar.dart
+save_button.dart
+time_picker.dart
+note_button.dart
+note_field.dart
+evaluate_button.dart
+track_button.dart
+table_calender.dart
+bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>380</y><w>170</w><h>120</h></coordinates><panel_attributes>*UConManager*
+package::UCon
+-
+deviceID: String
+UUID: String
+-
+getBtConnection()
+findOnDemandStimulation()
+setTimestamp()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>390</y><w>120</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+m1=1
+m2=1</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>360</y><w>80</w><h>60</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;40;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>390</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+m1=1
+m2=0..*</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>310</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-&gt;
+</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>200</y><w>70</w><h>90</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;70;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>170</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element></diagram>
