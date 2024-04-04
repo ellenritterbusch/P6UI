@@ -1,0 +1,16 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLUseCase</id><coordinates><x>90</x><y>180</y><w>140</w><h>60</h></coordinates><panel_attributes>fontsize=14
+Customer
+Requirements</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>90</x><y>260</y><w>140</w><h>60</h></coordinates><panel_attributes>fontsize=14
+Regulatory
+Requirements</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>90</x><y>340</y><w>140</w><h>60</h></coordinates><panel_attributes>fontsize=14
+
+Risk Management
+Requirements
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>340</x><y>240</y><w>140</w><h>100</h></coordinates><panel_attributes>fontsize=14
+
+Functional +
+Non-functional
+Requirements
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>540</x><y>260</y><w>140</w><h>60</h></coordinates><panel_attributes>fontsize=14
+UC System
+Requirements</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>200</y><w>140</w><h>90</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>120;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>280</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>300</y><w>140</w><h>90</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>120;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>280</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>70;10;10;10</additional_attributes></element></diagram>
