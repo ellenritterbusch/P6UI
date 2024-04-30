@@ -1,0 +1,24 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>270</x><y>130</y><w>110</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
+*DatabaseModel*
+package:: 
+-
+:
+-
+bg=pink
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>300</y><w>150</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+**
+package:: Visualization
+-
+
+-
+()
+bg=yellow
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>430</x><y>310</y><w>150</w><h>70</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
+--
+*package::Visualization*
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>260</y><w>100</w><h>70</h></coordinates><panel_attributes>*VisualizePage*
+-
+Visualize_Page
+
+-
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>290</y><w>100</w><h>80</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;60;80;10</additional_attributes></element></diagram>
