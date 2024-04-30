@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>180</x>
+      <y>190</y>
+      <w>370</w>
+      <h>570</h>
+    </coordinates>
+    <panel_attributes>User
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>550</x>
+      <y>190</y>
+      <w>310</w>
+      <h>570</h>
+    </coordinates>
+    <panel_attributes>System
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>860</x>
+      <y>190</y>
+      <w>310</w>
+      <h>570</h>
+    </coordinates>
+    <panel_attributes>Database
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>360</x>
+      <y>230</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>320</x>
+      <y>270</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Enter 
+homepage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>640</x>
+      <y>360</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Visualize 
+statistics 
+for the current day</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>320</x>
+      <y>520</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Choose a 
+longer time period</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>640</x>
+      <y>260</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Query database
+for saved data for 
+the current day
+bg=yellow
+type=sender</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>940</x>
+      <y>260</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Transfer saved data
+for the current day
+bg=yellow
+type=receiver</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>230</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>280</y>
+      <w>250</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>230.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>310</y>
+      <w>270</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;250.0;80.0;250.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>380</y>
+      <w>280</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>630</x>
+      <y>520</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Query database 
+for saved data for the 
+choosen time period
+bg=yellow
+type=sender</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>930</x>
+      <y>520</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Transfer saved data 
+for the choosen 
+time period
+bg=yellow
+type=receiver</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>530</y>
+      <w>210</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;-</panel_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>630</x>
+      <y>670</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Visualize
+statistics for the
+choosen time period</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>380</x>
+      <y>690</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>350</x>
+      <y>370</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=green
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>380</y>
+      <w>200</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+No desire 
+for changing 
+the date
+or time period</panel_attributes>
+    <additional_attributes>180.0;320.0;10.0;320.0;10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>400</y>
+      <w>140</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>The user desires
+to change the date
+or time period
+lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>570</y>
+      <w>280</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;130.0;260.0;130.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>690</y>
+      <w>260</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;240.0;10.0</additional_attributes>
+  </element>
+</diagram>
