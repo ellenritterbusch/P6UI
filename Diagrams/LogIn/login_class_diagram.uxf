@@ -1,8 +1,8 @@
-<diagram program="umletino" version="15.1"><zoom_level>13</zoom_level><element><id>UMLPackage</id><coordinates><x>725</x><y>157</y><w>130</w><h>91</h></coordinates><panel_attributes>View
+<diagram program="umletino" version="15.1"><zoom_level>13</zoom_level><element><id>UMLPackage</id><coordinates><x>572</x><y>131</y><w>130</w><h>91</h></coordinates><panel_attributes>View
 --
 *package::Login*
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>842</x><y>183</y><w>117</w><h>52</h></coordinates><panel_attributes>lt=.
-</panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>738</x><y>391</y><w>169</w><h>169</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>689</x><y>157</y><w>117</w><h>52</h></coordinates><panel_attributes>lt=.
+</panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>585</x><y>365</y><w>169</w><h>169</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *DatabaseManager*
 package::Database
 -
@@ -12,7 +12,7 @@ retrieveUser()
 updateUser()
 deleteUser()
 
-bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>894</x><y>430</y><w>117</w><h>39</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>452</x><y>430</y><w>169</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>741</x><y>404</y><w>117</w><h>39</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>299</x><y>404</y><w>169</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
 *DatabaseModel*
 package::Database
 -
@@ -22,7 +22,7 @@ input:UserInput
 
 bg=pink
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>452</x><y>118</y><w>169</w><h>182</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>299</x><y>92</y><w>169</w><h>182</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *LoginController*
 package::Login
 -
@@ -35,23 +35,23 @@ lockAccess()
 
 bg=yellow
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>287</y><w>65</w><h>169</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>377</x><y>261</y><w>65</w><h>169</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..*
 m2=1
 
 
-</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>309</x><y>183</y><w>169</w><h>65</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>156</x><y>157</y><w>169</w><h>65</h></coordinates><panel_attributes>lt=-
 
-</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>608</x><y>170</y><w>143</w><h>65</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>455</x><y>144</y><w>143</w><h>65</h></coordinates><panel_attributes>lt=-
 
-</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>218</x><y>274</y><w>260</w><h>247</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>65</x><y>248</y><w>260</w><h>247</h></coordinates><panel_attributes>lt=-
 m1=1
-m2=1</panel_attributes><additional_attributes>180;160;10;160;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>933</x><y>170</y><w>208</w><h>104</h></coordinates><panel_attributes>*NotificationPage*
+m2=1</panel_attributes><additional_attributes>180;160;10;160;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>144</y><w>208</w><h>104</h></coordinates><panel_attributes>*NotificationPage*
 -
 Notification_Page
 CreateProfile_Page
 
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>985</x><y>404</y><w>65</w><h>78</h></coordinates><panel_attributes>customelement=
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>832</x><y>378</y><w>65</w><h>78</h></coordinates><panel_attributes>customelement=
 // Text Elemnt
 // DB Symbol
 drawArc(0,0,width,height*2/5,0,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)
@@ -61,7 +61,7 @@ drawLine(0,height/5,0,height*4/5)fg=black //Parameters (x1, y1, x2, y2)
 drawLine(width,height/5,width,height*4/5)fg=black //Parameters (x1, y1, x2, y2) 
 drawArc(0,height*1/5,width,height*2/5,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
 drawArc(0,height*2/5,width,height*2/5,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
-drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>608</x><y>469</y><w>156</w><h>39</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>153</x><y>118</y><w>169</w><h>169</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
+drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>455</x><y>443</y><w>156</w><h>39</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>92</y><w>169</w><h>169</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
 *UserInput*
 package::Login
 -
