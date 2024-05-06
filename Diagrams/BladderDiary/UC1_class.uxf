@@ -243,16 +243,18 @@ evaluationValue: String
 evaluationNote: String
 --
 
-bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>561</x><y>1749</y><w>110</w><h>33</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1155</x><y>1408</y><w>187</w><h>154</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>561</x><y>1749</y><w>110</w><h>33</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1155</x><y>1408</y><w>187</w><h>198</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *UConManager*
 package::UCon
 -
+connection: boolean
 deviceID: String
 UUID: String
 -
 getBtConnection()
-findOnDemandStimulation()
-setTimestamp()
+setStimulationType()
+setStimulationTimeSetting()
+getTimestamp()
 bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1683</x><y>1661</y><w>176</w><h>176</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *DatabaseManager*
 package::Database
@@ -294,7 +296,7 @@ package::BladderDiary
 registerAccident()
 registerTime()
 registerEvaluation()
-getTimestamp()
+setTimestamp()
 bg=yellow
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1331</x><y>1474</y><w>132</w><h>44</h></coordinates><panel_attributes>lt=-&gt;
 m1=1
@@ -339,7 +341,7 @@ package::Database
 accident: int
 time: String
 date: String
-evaluationValue: String
+evaluationValue: int
 evaluationNote: String
 --
 
