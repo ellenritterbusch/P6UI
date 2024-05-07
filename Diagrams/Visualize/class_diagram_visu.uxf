@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="15.1">
-  <zoom_level>10</zoom_level>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>190</x>
-      <y>500</y>
-      <w>200</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Model&gt;&gt;
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>153</x><y>468</y><w>180</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
 *DatabaseModel*
 package::Database
 -
@@ -17,18 +6,7 @@ bladderDiaryData: List&lt;Map&gt;
 dailyEvaluationData: String
 -
 bg=pink
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>210</x>
-      <y>260</y>
-      <w>160</w>
-      <h>160</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Controller&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>171</x><y>252</y><w>144</w><h>144</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *VisualizeData*
 package:: Visualization
 -
@@ -39,62 +17,15 @@ monthView()
 threeMonthView()
 changeDay()
 bg=yellow
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLPackage</id>
-    <coordinates>
-      <x>450</x>
-      <y>310</y>
-      <w>170</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;View&gt;&gt;
---
-*package::Visualization*
-bg=orange</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>690</x>
-      <y>300</y>
-      <w>110</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>*HomePage*
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>459</x><y>279</y><w>99</w><h>99</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
+*HomePage*
 -
 Calendar_Bar
 Bar_Chart
 Tool_Tip
 History_Box
--
 
-bg=orange</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>610</x>
-      <y>350</y>
-      <w>100</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>480</x>
-      <y>500</y>
-      <w>180</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Controller&gt;&gt;
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>414</x><y>468</y><w>162</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *DatabaseManager*
 package::Database
 -
@@ -102,18 +33,7 @@ package::Database
 retrieveBladderDiaryData()
 retrieveEvaluationValue()
 bg=yellow
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>720</x>
-      <y>520</y>
-      <w>60</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>// Text Element
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>630</x><y>486</y><w>54</w><h>63</h></coordinates><panel_attributes>// Text Element
 // DB Symbol
 _umletcode=
 fg='black';
@@ -132,54 +52,7 @@ drawArc(0,height*1/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, 
 drawArc(0,height*2/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
 bg='#222222'
 drawArc(0,height*3/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>380</x>
-      <y>530</y>
-      <w>120</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>280</x>
-      <y>410</y>
-      <w>50</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>495</y><w>108</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>234</x><y>387</y><w>45</w><h>99</h></coordinates><panel_attributes>lt=-&gt;
 m2=0..*
 m1=1
-</panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>650</x>
-      <y>530</y>
-      <w>90</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>360</x>
-      <y>340</y>
-      <w>110</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-</diagram>
+</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>495</y><w>81</w><h>27</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>306</x><y>324</y><w>171</w><h>27</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>170;10;10;10</additional_attributes></element></diagram>
