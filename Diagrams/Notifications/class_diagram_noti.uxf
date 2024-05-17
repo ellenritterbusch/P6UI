@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.1"><zoom_level>14</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>0</x><y>112</y><w>322</w><h>196</h></coordinates><panel_attributes>package::Notifications
+<diagram program="umletino" version="15.1"><zoom_level>14</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>30</x><y>112</y><w>322</w><h>196</h></coordinates><panel_attributes>package::Notifications
 &lt;&lt;Model&gt;&gt;
 NotificationSettings
 --
@@ -9,7 +9,7 @@ dailyReminder: boolean
 dailyReminderTimestamp: dateTime
 --
 
-bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>784</x><y>126</y><w>210</w><h>182</h></coordinates><panel_attributes>package::Notifications
+bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>814</x><y>126</y><w>210</w><h>182</h></coordinates><panel_attributes>package::Notifications
 &lt;&lt;View&gt;&gt;
 NotificationPage
 --
@@ -18,7 +18,7 @@ ListView
 CuptertinoSwitch
 Text
 --
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>392</x><y>364</y><w>322</w><h>210</h></coordinates><panel_attributes>package::Notifications
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>422</x><y>364</y><w>322</w><h>210</h></coordinates><panel_attributes>package::Notifications
 &lt;&lt;Controller&gt;&gt;
 SetNotifications
 --
@@ -28,14 +28,14 @@ setAccidentReminder()
 setAccidentReminderDelay()
 setDailyReminder()
 setDailyReminderTimestamp()
-bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1078</x><y>0</y><w>210</w><h>140</h></coordinates><panel_attributes>package::Notifications
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1108</x><y>0</y><w>210</w><h>140</h></coordinates><panel_attributes>package::Notifications
 &lt;&lt;View&gt;&gt;
 NotificationMessage
 --
 Text
 Icon 
 --
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>168</x><y>294</y><w>252</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>160;80;10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>294</y><w>224</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;80;140;80;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>980</x><y>126</y><w>224</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;30;140;30;140;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>140</x><y>1204</y><w>308</w><h>196</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>198</x><y>294</y><w>252</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>160;80;10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>294</y><w>224</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;80;140;80;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1010</x><y>126</y><w>224</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;30;140;30;140;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>170</x><y>1204</y><w>308</w><h>196</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
 *DatabaseModel*
 package::Database
 --
@@ -46,7 +46,7 @@ dailyReminder: int
 dailyReminderTimestamp: dateTime
 --
 
-bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>154</x><y>924</y><w>266</w><h>154</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>184</x><y>924</y><w>252</w><h>154</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *NotificationManger*
 package::Notifications
 --
@@ -54,18 +54,19 @@ package::Notifications
 initiliazeNotification()
 scheduleDailyNotification()
 showNotificationWithActions()
-bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>924</y><w>280</w><h>154</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>576</x><y>924</y><w>196</w><h>168</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
 *NotificationPage*
+Package::Notifications
 --
 List_Tile
 Toggle
 Time_Wheel
 Demand_Wheel
 
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>266</x><y>1064</y><w>70</w><h>168</h></coordinates><panel_attributes>lt=&lt;-
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>296</x><y>1064</y><w>70</w><h>168</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..*
-m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>406</x><y>966</y><w>182</w><h>56</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>1218</y><w>182</w><h>182</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>422</x><y>966</y><w>182</w><h>56</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>1218</y><w>182</w><h>182</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *DatabaseManager*
 package::Database
 -
@@ -76,7 +77,7 @@ updateNotification()
 deleteNotification()
 
 
-bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>812</x><y>1218</y><w>70</w><h>84</h></coordinates><panel_attributes>customelement=
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>842</x><y>1218</y><w>70</w><h>84</h></coordinates><panel_attributes>customelement=
 // Text Elemnt
 // DB Symbol
 drawArc(0,0,width,height*2/5,0,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)
@@ -86,4 +87,4 @@ drawLine(0,height/5,0,height*4/5)fg=black //Parameters (x1, y1, x2, y2)
 drawLine(width,height/5,width,height*4/5)fg=black //Parameters (x1, y1, x2, y2) 
 drawArc(0,height*1/5,width,height*2/5,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
 drawArc(0,height*2/5,width,height*2/5,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
-drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>728</x><y>1246</y><w>112</w><h>42</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>434</x><y>1246</y><w>154</w><h>42</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element></diagram>
+drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>758</x><y>1246</y><w>112</w><h>42</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>464</x><y>1246</y><w>154</w><h>42</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element></diagram>
