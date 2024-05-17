@@ -1,4 +1,5 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>30</x><y>210</y><w>210</w><h>190</h></coordinates><panel_attributes>*ListTileDropDown*
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>20</x><y>300</y><w>210</w><h>200</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
+*ListTile_DropDown*
 Package::ViewGuides
 --
 image: Image
@@ -11,16 +12,17 @@ onListTilepressed()
 onSubListTilepressed()
 onVideopressed()
 onLinkPressed()
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>210</y><w>210</w><h>90</h></coordinates><panel_attributes>*ViewGuidePage*
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>300</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
+*ViewGuidePage*
 Package::ViewGuides
 --
-ListTileDropDown
-OnboardingPage
+ListTile_DropDown
 --
 bg=orange
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>250</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>340</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
 m1=1..n
-m2=1</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>210</y><w>210</w><h>140</h></coordinates><panel_attributes>*ViewGuideController*
+m2=1</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>300</y><w>210</w><h>140</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+*ViewGuideManager*
 Package::ViewGuides
 --
 YoutubePlayerController
@@ -29,4 +31,4 @@ YoutubePlayerController
 playVideo()
 checkForNewProfile()
 displayOnboardingScreen()
-bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>250</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element></diagram>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>340</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element></diagram>

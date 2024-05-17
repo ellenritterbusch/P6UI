@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Bachelor Project ST6 2024 Group 2 Controlled Documents
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Ellen
+    family-names: Ritterbusch
+  - given-names: 'Victor '
+    family-names: Holler Brændstrup
+  - given-names: Maja
+    family-names: Blinge Husum
+  - given-names: Erik
+    family-names: Laursen Canter
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/ellenritterbusch/P6UI/tree/3ba097c967fad7e82652bb172aa004b3bcb53427/Controlled%20Documents
+repository-code: >-
+  https://github.com/ellenritterbusch/P6UI/tree/main/Controlled%20Documents
