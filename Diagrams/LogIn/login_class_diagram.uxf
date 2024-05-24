@@ -1,8 +1,8 @@
-<diagram program="umletino" version="15.1"><zoom_level>15</zoom_level><element><id>UMLPackage</id><coordinates><x>699</x><y>45</y><w>150</w><h>105</h></coordinates><panel_attributes>View
+<diagram program="umletino" version="15.1"><zoom_level>15</zoom_level><element><id>UMLPackage</id><coordinates><x>690</x><y>45</y><w>150</w><h>105</h></coordinates><panel_attributes>View
 --
 *package::Login*
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>75</y><w>135</w><h>60</h></coordinates><panel_attributes>lt=.
-</panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>714</x><y>315</y><w>195</w><h>195</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>825</x><y>75</y><w>135</w><h>60</h></coordinates><panel_attributes>lt=.
+</panel_attributes><additional_attributes>10;20;70;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>705</x><y>315</y><w>195</w><h>195</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *DatabaseManager*
 package::Database
 -
@@ -12,7 +12,7 @@ retrieveUser()
 updateUser()
 deleteUser()
 
-bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>894</x><y>360</y><w>135</w><h>45</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>384</x><y>360</y><w>195</w><h>150</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>885</x><y>360</y><w>135</w><h>45</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>375</x><y>360</y><w>195</w><h>150</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
 *DatabaseModel*
 package::Database
 -
@@ -22,7 +22,7 @@ input:UserInput
 
 bg=pink
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>384</x><y>0</y><w>195</w><h>210</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>375</x><y>0</y><w>195</w><h>210</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *LoginController*
 package::Login
 -
@@ -35,23 +35,23 @@ lockAccess()
 
 bg=yellow
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>474</x><y>195</y><w>75</w><h>195</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>465</x><y>195</y><w>75</w><h>195</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..*
 m2=1
 
 
-</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>219</x><y>75</y><w>195</w><h>75</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>75</y><w>195</w><h>75</h></coordinates><panel_attributes>lt=-
 
-</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>564</x><y>60</y><w>165</w><h>75</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>555</x><y>60</y><w>165</w><h>75</h></coordinates><panel_attributes>lt=-
 
-</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>114</x><y>180</y><w>300</w><h>285</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>105</x><y>180</y><w>300</w><h>285</h></coordinates><panel_attributes>lt=-
 m1=1
-m2=1</panel_attributes><additional_attributes>180;160;10;160;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>939</x><y>60</y><w>240</w><h>120</h></coordinates><panel_attributes>*NotificationPage*
+m2=1</panel_attributes><additional_attributes>180;160;10;160;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>930</x><y>60</y><w>240</w><h>120</h></coordinates><panel_attributes>*NotificationPage*
 -
 Notification_Page
 CreateProfile_Page
 
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>999</x><y>330</y><w>75</w><h>90</h></coordinates><panel_attributes>customelement=
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>990</x><y>330</y><w>75</w><h>90</h></coordinates><panel_attributes>customelement=
 // Text Elemnt
 // DB Symbol
 drawArc(0,0,width,height*2/5,0,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)
@@ -61,7 +61,7 @@ drawLine(0,height/5,0,height*4/5)fg=black //Parameters (x1, y1, x2, y2)
 drawLine(width,height/5,width,height*4/5)fg=black //Parameters (x1, y1, x2, y2) 
 drawArc(0,height*1/5,width,height*2/5,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
 drawArc(0,height*2/5,width,height*2/5,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
-drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>564</x><y>405</y><w>180</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>39</x><y>0</y><w>195</w><h>195</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
+drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>555</x><y>405</y><w>180</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>0</y><w>195</w><h>195</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
 *UserInput*
 package::Login
 -
@@ -72,11 +72,11 @@ package::Login
 -
 
 bg=pink
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>744</x><y>720</y><w>150</w><h>105</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>735</x><y>720</y><w>150</w><h>105</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
 --
 *package::Login*
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>879</x><y>645</y><w>150</w><h>165</h></coordinates><panel_attributes>lt=.
-</panel_attributes><additional_attributes>10;90;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>759</x><y>990</y><w>195</w><h>195</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>870</x><y>645</y><w>150</w><h>165</h></coordinates><panel_attributes>lt=.
+</panel_attributes><additional_attributes>10;90;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>990</y><w>195</w><h>180</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *DatabaseManager*
 package::Database
 -
@@ -86,7 +86,7 @@ retrieveUser()
 updateUser()
 deleteUser()
 
-bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>939</x><y>1035</y><w>135</w><h>45</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>429</x><y>1035</y><w>195</w><h>150</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>930</x><y>1035</y><w>135</w><h>45</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>1035</y><w>195</w><h>150</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
 *DatabaseModel*
 package::Database
 -
@@ -96,8 +96,8 @@ input:UserInput
 
 bg=pink
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>429</x><y>675</y><w>195</w><h>210</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
-*LoginController*
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>675</y><w>195</w><h>210</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+*LoginManager*
 package::Login
 -
 access:boolean
@@ -109,26 +109,26 @@ lockAccess()
 
 bg=yellow
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>519</x><y>870</y><w>75</w><h>195</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>870</y><w>75</w><h>195</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..*
 m2=1
 
 
-</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>264</x><y>750</y><w>195</w><h>75</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>255</x><y>750</y><w>195</w><h>75</h></coordinates><panel_attributes>lt=&lt;-
 m1=1
 m2=0..*
 
-</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>609</x><y>750</y><w>165</w><h>75</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>750</y><w>165</w><h>75</h></coordinates><panel_attributes>lt=-
 
-</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>159</x><y>855</y><w>300</w><h>270</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>855</y><w>300</w><h>270</h></coordinates><panel_attributes>lt=-
 m1=
-m2=</panel_attributes><additional_attributes>180;160;10;160;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>999</x><y>615</y><w>165</w><h>150</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
+m2=</panel_attributes><additional_attributes>180;160;10;160;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>990</x><y>615</y><w>165</w><h>135</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
 *LoginPage*
 -
 Logo
 Password_Field
 Text_Helper
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>1044</x><y>1005</y><w>75</w><h>90</h></coordinates><panel_attributes>customelement=
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>1035</x><y>1005</y><w>75</w><h>90</h></coordinates><panel_attributes>customelement=
 // Text Elemnt
 // DB Symbol
 drawArc(0,0,width,height*2/5,0,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)
@@ -138,8 +138,8 @@ drawLine(0,height/5,0,height*4/5)fg=black //Parameters (x1, y1, x2, y2)
 drawLine(width,height/5,width,height*4/5)fg=black //Parameters (x1, y1, x2, y2) 
 drawArc(0,height*1/5,width,height*2/5,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
 drawArc(0,height*2/5,width,height*2/5,180,180,true) fg=black //Parameters (x, y, width, height, start, extent, open)
-drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>609</x><y>1080</y><w>180</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>84</x><y>675</y><w>195</w><h>195</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
-*UserInput*
+drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parameters (x, y, width, height, start, extent, open)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>1080</y><w>180</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>75</x><y>675</y><w>195</w><h>195</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
+*UserInputModel*
 package::Login
 -
 -pin:int 
@@ -149,11 +149,11 @@ package::Login
 -
 
 bg=pink
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>999</x><y>795</y><w>165</w><h>150</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>990</x><y>795</y><w>165</w><h>135</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
 *CreateUserPage*
 -
 Password_Field
 Input_Field
 Create_Button
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>879</x><y>780</y><w>150</w><h>120</h></coordinates><panel_attributes>lt=.
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>870</x><y>780</y><w>150</w><h>120</h></coordinates><panel_attributes>lt=.
 </panel_attributes><additional_attributes>10;10;80;60</additional_attributes></element></diagram>

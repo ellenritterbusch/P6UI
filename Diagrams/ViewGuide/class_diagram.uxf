@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.1"><zoom_level>17</zoom_level><element><id>UMLClass</id><coordinates><x>69</x><y>102</y><w>272</w><h>340</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
+<diagram program="umletino" version="15.1"><zoom_level>17</zoom_level><element><id>UMLClass</id><coordinates><x>118</x><y>153</y><w>272</w><h>340</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
 *ListTile_DropDown*
 Package::ViewGuides
 --
@@ -12,16 +12,16 @@ onListTilepressed()
 onSubListTilepressed()
 onVideopressed()
 onLinkPressed()
-bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>528</x><y>102</y><w>255</w><h>136</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>577</x><y>153</y><w>255</w><h>136</h></coordinates><panel_attributes>&lt;&lt;View&gt;&gt;
 *ViewGuidePage*
 Package::ViewGuides
 --
 ListTile_DropDown
 --
 bg=orange
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>153</y><w>238</w><h>68</h></coordinates><panel_attributes>lt=&lt;-
-m1=1..n
-m2=1</panel_attributes><additional_attributes>10;10;120;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>902</x><y>102</y><w>289</w><h>221</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>373</x><y>204</y><w>238</w><h>68</h></coordinates><panel_attributes>lt=&lt;-
+m1=1..*
+m2=1</panel_attributes><additional_attributes>10;10;120;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>951</x><y>153</y><w>289</w><h>221</h></coordinates><panel_attributes>&lt;&lt;Controller&gt;&gt;
 *ViewGuideManager*
 Package::ViewGuides
 --
@@ -30,4 +30,4 @@ YoutubePlayerController
 playVideo()
 checkForNewProfile()
 displayOnboardingScreen()
-bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>766</x><y>153</y><w>170</w><h>51</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element></diagram>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>815</x><y>204</y><w>170</w><h>51</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element></diagram>
