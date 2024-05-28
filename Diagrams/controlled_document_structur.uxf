@@ -1,7 +1,8 @@
-<diagram program="umletino" version="15.1"><zoom_level>18</zoom_level><element><id>UMLHierarchy</id><coordinates><x>78</x><y>140</y><w>612</w><h>432</h></coordinates><panel_attributes>type=Package
+<diagram program="umletino" version="15.1"><zoom_level>18</zoom_level><element><id>UMLHierarchy</id><coordinates><x>78</x><y>130</y><w>612</w><h>468</h></coordinates><panel_attributes>type=Package
 Controlled Documents
 	Prototype Evaluation
 	Usability Engineering File
+	Test File
 	Risk Management File
 		Risk Management Plan.docx
 		Risk Management document.xlsx
