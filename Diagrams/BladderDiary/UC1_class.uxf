@@ -343,7 +343,7 @@ evaluationValue: int
 evaluationNote: String
 --
 
-bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1740</x><y>1884</y><w>120</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1260</x><y>1536</y><w>204</w><h>132</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
+bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1740</x><y>1884</y><w>120</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1260</x><y>1548</y><w>204</w><h>132</h></coordinates><panel_attributes>&lt;&lt;Model&gt;&gt;
 *UConModel*
 package::UCon
 -
@@ -351,6 +351,6 @@ stimType: int
 stimTime: int
 -
 
-bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1356</x><y>1656</y><w>60</w><h>144</h></coordinates><panel_attributes>lt=-&gt;
+bg=pink</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1356</x><y>1668</y><w>60</w><h>132</h></coordinates><panel_attributes>lt=-&gt;
 m1=1
-m2=0..*</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element></diagram>
+m2=0..*</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element></diagram>
